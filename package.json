@@ -1,0 +1,21 @@
+{
+  "name": "jsonrpc-types",
+  "version": "1.0.0",
+  "main": "lib/types.js",
+  "license": "Apache-2.0",
+  "description": "JSON-RPC 2.0 types.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/jsonrpc-types.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "build": "tsc --paths null",
+    "clean": "rm -rf lib"
+  }
+}
